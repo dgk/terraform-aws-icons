@@ -54,7 +54,7 @@ def repl_func(matchobj):
 def main():
     text = sys.stdin.read()
 
-    new_text = re.sub(r'label = "((aws_.+)\..+)",', repl_func, text)
+    new_text = re.sub(r'label = "(?:module\..*?\.){0,1}((aws_.+)\..+)",', repl_func, text)
 
     sys.stdout.write(new_text)
 
