@@ -9,12 +9,18 @@ Combine `Terraform graph`_ and `AWS Icons`_.
 
 Usage
 -----
-
+Install the original from `pip`
 ::
 
     pip install terraform-aws-icons
     terraform graph | terraform-iconify | dot -Tpng > graph.png
 
+or install this fork from github
+::
+
+    git clone [repo]
+    cd [repo]
+    make test
 
 Examples
 --------
