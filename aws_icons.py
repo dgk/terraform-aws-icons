@@ -29,7 +29,6 @@ ICONS = {
     'aws_instance': 'Compute_AmazonEC2_instance.png',
     'aws_route53_record': 'Networking_AmazonRoute53.png',
     'aws_s3_bucket': 'Storage-Content-Delivery_AmazonS3_bucket.png',
-    'aws_security_group': '',
     'aws_volume_attachment': '',
     'aws_eip': 'Compute_AmazonEC2_ElasticIP.png',
     'aws_ecs_cluster': 'Compute_AmazonECS.png',
@@ -45,6 +44,11 @@ ICONS = {
     'aws_iam_server_certificate': 'SecurityIdentityCompliance_AWSCertificateManager_certificatemanager.png',
     'aws_ecs_task_definition': 'ManagementTools_AWSCloudFormation_template.png',
     'aws_ecs_service': 'Compute_AmazonECS_EC2ComputeContainer.png',
+    'aws_route_table_association': '35-512.png',
+    'aws_cloudwatch_metric_alarm': 'alarm-clipart-1408568727.png',
+    'module': 'puzzle-piece-128.png',
+    'data': 'data-icon-01.png',
+    'aws_security_group': '95508.png'
 }
 
 
