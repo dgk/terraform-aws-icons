@@ -48,7 +48,15 @@ ICONS = {
     'aws_cloudwatch_metric_alarm': 'alarm-clipart-1408568727.png',
     'module': 'puzzle-piece-128.png',
     'data': 'data-icon-01.png',
-    'aws_security_group': '95508.png'
+    'aws_security_group': '95508.png',
+    'aws_iam_policy_attachment': '85-512.png',
+    'aws_autoscaling_policy': '10632MBF_Policy_Icon_Blue.png',
+    'aws_cloudwatch_log_group': 'thumbnail.pngb95d183a-37d0-47eb-bd26-f0cebfa59842Original.png',
+    'aws_alb': 'AWS_Simple_Icons_Networking_Amazon_Elastic_Load_Balancer.svg.png',
+    'aws_flow_log': 'Networking_AmazonVPC_flowlogs.png',
+    'aws_sns_topic': 'Messaging_AmazonSNS_topic.png',
+    'aws_cloudwatch_alarm': 'Management-Tools_AmazonCloudWatch_alarm.png',
+    'aws_route': '35-512.png'
 }
 
 

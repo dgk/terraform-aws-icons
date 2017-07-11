@@ -18,9 +18,11 @@ icons: ## Get png icons into ./icons
 	unzip -j /tmp/aws_icons.zip *.png -x */._* -d icons
 	# Workaround for setup.py refusing to extract icons from package data
 	touch icons/__init__.py
+
+.PHONY: extra-icons
+extra-icons: ## Get more icons into ./icons
 	# extra non-aws icons
-	cd icons/
-	wget https://cdn0.iconfinder.com/data/icons/map-locations-and-tourism/512/35-512.png
+	cp extra-icons/* icons/
 
 test:
 	-pip uninstall terraform-aws-icons --yes
